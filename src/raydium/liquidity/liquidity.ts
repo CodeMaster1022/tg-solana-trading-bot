@@ -12,7 +12,7 @@ import {
   BNLayout,
 } from "@raydium-io/raydium-sdk";
 import { TOKEN_PROGRAM_ID } from "@solana/spl-token";
-import { MinimalMarketLayoutV3 } from "../market";
+import { MinimalMarketLayoutV3 } from "../../market";
 
 export const RAYDIUM_LIQUIDITY_PROGRAM_ID_CLMM = MAINNET_PROGRAM_ID.CLMM;
 export const RAYDIUM_LIQUIDITY_PROGRAM_ID_V4 = MAINNET_PROGRAM_ID.AmmV4;

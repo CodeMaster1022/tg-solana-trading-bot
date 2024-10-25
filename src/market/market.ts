@@ -3,7 +3,7 @@ import {
   GetStructureSchema,
   MARKET_STATE_LAYOUT_V3,
 } from "@raydium-io/raydium-sdk";
-import { MINIMAL_MARKET_STATE_LAYOUT_V3 } from "../liquidity";
+import { MINIMAL_MARKET_STATE_LAYOUT_V3 } from "../raydium/liquidity";
 
 export type MinimalMarketStateLayoutV3 = typeof MINIMAL_MARKET_STATE_LAYOUT_V3;
 export type MinimalMarketLayoutV3 =
